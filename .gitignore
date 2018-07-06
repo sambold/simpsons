@@ -3,7 +3,7 @@
 .Rapp.history
 
 # Session Data files
-.RData
+*.RData
 
 # Example code in package build process
 *-Ex.R
@@ -16,6 +16,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -34,3 +35,11 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
+
+
+# Generated Data
+netzwerk
+grafiken
+*.zip
+/*.csv
